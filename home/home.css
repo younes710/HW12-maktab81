@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+header {
+    padding: 20px;
+}
+
+a {
+    padding-left: 40px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a,
+a:visited {
+    color: #0085b6;
+}
+
+main {
+    margin-top: 80px;
+    margin-left: 25%;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 67%;
+    color: #fff;
+    background-color: rgb(79, 79, 252);
+    border: none;
+}
+
+.toast {
+    display: none;
+    background-color: rgb(22, 196, 22);
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: -200px;
+}
+
+.close {
+    border: none;
+    background-color: rgb(22, 196, 22);
+    position: absolute;
+    left: 270px;
+    top: 5px;
+}

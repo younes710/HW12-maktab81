@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <script defer src="home.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/home/home.html">Home</a>
+            <a href="/todos/todos.html">Todos</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <label>Title</label>
+        <input type="text" class="title" placeholder="What will you do today?" required>
+        <label>Description</label>
+        <input type="text" class="des" placeholder="Some information" required>
+        <label>Due Date</label>
+        <input type="date" class="date" required><br>
+        <input type="submit" value="Submit" class="submit" onclick="postData()">
+        <!-- <button type="submit" class="submit">Submit</button> -->
+    </main>
+    <div class="toast">
+        <p>Successful</p><br>
+        <p>The todo successfully submited</p>
+        <button class="close" id="close">
+            <img src="icons8-cancel-32.png" alt="cancel-icon">
+        </button>
+    </div>
+</body>
+
+</html>
